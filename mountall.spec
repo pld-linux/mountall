@@ -9,7 +9,13 @@ Group:		Base
 Source0:	https://launchpad.net/ubuntu/+archive/primary/+files/%{name}_%{version}.tar.gz
 # Source0-md5:	1af4bd5309ffda85c5788236997df465
 URL:		https://launchpad.net/ubuntu/+source/mountall
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	bison
+BuildRequires:	expat-devel
+BuildRequires:	gettext-devel
 BuildRequires:	libnih-devel >= 1.0.0
+BuildRequires:	pkgconfig
 BuildRequires:	udev-devel >= 146
 Requires:	upstart >= 0.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
