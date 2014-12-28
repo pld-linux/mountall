@@ -13,7 +13,7 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	bison
 BuildRequires:	expat-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	libnih-devel >= 1.0.0
 BuildRequires:	pkgconfig
 BuildRequires:	udev-devel >= 146
